@@ -24,37 +24,44 @@ public class UsoSwitch5 {
                 
         switch(valor){
             case'o':
+            case'O':
                 System.out.printf("La placa pertenece a El Oro con letra %s de"
                         + " %s\n", 
                         valor, nombre.toUpperCase());
                 break;
             case 'e':
+            case'E':
                 System.out.printf("La placa pertenece a Esmeraldas con letra %s"
                         + " de %s\n", 
                         valor, nombre.toUpperCase());
                 break;   
             case 'g':
+            case'G':
                 System.out.printf("La placa pertenece a Guayas con letra %s de"
                         + " %s\n", 
                         valor, nombre.toUpperCase());
                 break;
                 
             case 'r':
+            case'R':    
                 System.out.printf("La placa pertenece a Los Rios con letra %s "
                         + "de %s\n", 
                         valor, nombre.toUpperCase());
                 break;               
             case 'm':
+            case'M':    
                 System.out.printf("La placa pertenece a Manabi con letra %s de "
                         + "%s\n", 
                         valor, nombre.toUpperCase());
                 break;
             case 'y':
+            case'Y':    
                 System.out.printf("La placa pertenece a Santa Elena con letra "
                         + "%s de %s\n", 
                         valor, nombre.toUpperCase());
                 break;
             case 'j':
+            case'J':    
                 System.out.printf("La placa pertenece a Santo Domingo de los"
                         + " Tsáchilas con letra %s de %s\n",valor, 
                         nombre.toUpperCase());
